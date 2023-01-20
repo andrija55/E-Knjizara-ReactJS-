@@ -9,6 +9,7 @@ export default function Knjiga(props) {
         border: "solid",
         borderRadius: "10px",
         backgroundColor: "coral",
+        width:"700px",
       }}
     >
       
