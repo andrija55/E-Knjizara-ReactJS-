@@ -16,8 +16,8 @@ export default function MojeKnjige(props) {
       <div
         style={{
           display: "flex",
-          
-
+          justifyContent: "center",
+          textAlign: "center",
         }}
       >
         {props.knjige.map((knjiga) => (
@@ -25,7 +25,7 @@ export default function MojeKnjige(props) {
             naslov={knjiga.naslov}
             pisac={knjiga.pisac}
             godina={knjiga.godina}
-            knjigaPrikaz={true}
+            
           />
         ))}
       </div>
